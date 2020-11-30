@@ -89,7 +89,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5em;
-  color: #787676;
+  color: #aca9a9;
 }
 
 /*-------------------------------------------------
@@ -220,10 +220,10 @@ h4 a:hover {
   content: "";
   height: 2px;
   width: 100%;
-  background-color: #e7ebf0;
+  background-color: #a26436;
   bottom: -1px;
   left: 0%;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 2px #a26436, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .section-title {
@@ -3312,22 +3312,22 @@ label {
 }
 
 ::-webkit-input-placeholder {
-  color: #273272;
+  color: white;
   opacity: 0.6;
 }
 
 :-moz-placeholder {
-  color: #273272;
+  color: white;
   opacity: 0.6;
 }
 
 ::-moz-placeholder {
-  color: #273272;
+  color:white;
   opacity: 0.6;
 }
 
 :-ms-input-placeholder {
-  color: #273272;
+  color: white;
 }
 
 .form-group {
@@ -3335,18 +3335,18 @@ label {
 }
 
 .form-controller {
-  background-color: transparent;
+  background-color: #171616;
   width: 100%;
   height: 50px;
   outline: none;
   padding: 5px 20px;
-  color: #273272;
-  box-shadow: inset -3px -3px 6px -1px rgba(255, 255, 255, 0.6), inset 3px 3px 6px -1px rgba(0, 0, 0, 0.12);
+  color: white;
   border-radius: 5px;
+  box-shadow: -3px -3px 6px -1px rgba(0, 0, 0, 1), inset 3px 3px 6px -1px rgba(0, 0, 0, 0.12);
 }
 .form-controller:focus {
-  color: #273272;
-  box-shadow: inset -2px -2px 5px -1px rgba(255, 255, 255, 0.8), inset 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  color: white;
+  box-shadow: -3px -3px 6px -1px rgb(0, 0, 0), inset 3px 3px 6px -1px rgba(0, 0, 0, 0.12);
 }
 @media only screen and (max-width: 575px) {
   .form-controller {
@@ -5095,6 +5095,9 @@ color: #a26436;
 /*-------------------------------------------------
     [ ### Team Single ]
 */
+.single-team-block {
+  background-color: #1C1A1B;
+}
 .single-team-block .team-item {
   margin-bottom: 0px;
   max-width: 450px;
@@ -5112,23 +5115,25 @@ color: #a26436;
 .single-team-block .social-status > a {
   font-size: 15px;
   margin: 0 6px;
-  color: #444;
+  color: white;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: #e9eef4;
-  box-shadow: -2px -2px 5px -1px rgba(255, 255, 255, 0.8), 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  background-color: #A26436;
+  box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
 }
 .single-team-block .social-status > a:hover, .single-team-block .social-status > a:focus {
-  color: #273272 !important;
-  box-shadow: -1.5px -1.5px 4px -1px rgba(255, 255, 255, 0.8), 1.5px 1.5px 4px -1px rgba(0, 0, 0, 0.12);
+  color: #A26436 !important;
+  background-color: white;
+  box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
 }
 .single-team-block .social-status > a:active {
-  color: #273272 !important;
-  box-shadow: inset -2px -2px 5px -1px rgba(255, 255, 255, 0.8), inset 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  color: white !important;
+  background-color: #A26436;
+  box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
 }
 .single-team-block .team-about-info ul.list {
   list-style: none;
@@ -5153,16 +5158,16 @@ color: #a26436;
   height: 13px;
   left: 0;
   top: 8px;
-  background-color: #e9eef4;
+  background-color: #A26436;
   border-radius: 50%;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 2px #A26436, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .single-team-block .team-about-info ul.list li:last-child {
   margin-bottom: 0;
 }
 .single-team-block .team-about-info ul.list li a:hover,
 .single-team-block .team-about-info ul.list li a:focus {
-  color: #273272;
+  color: #A26436;
 }
 
 .single-team-block .team-item {
@@ -5759,7 +5764,7 @@ color: #a26436;
 
 .testimonial-item {
   margin: 15px;
-  background-color: #e9eef4;
+  background-color: #1C1A1B;
   padding: 40px 30px;
   border-radius: 8px;
   box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);  text-align: center;
@@ -6387,7 +6392,7 @@ color: #a26436;
 .skills-list .single-skill .skill-title {
   font-size: 15px;
   font-weight: 600;
-  color: #273272;
+  color: #aca9a9;
   margin-bottom: 10px;
   text-transform: capitalize;
 }
@@ -6395,17 +6400,17 @@ color: #a26436;
   height: 5px;
   overflow: visible;
   border-radius: 0;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
-  background-color: #e9eef4;
+  box-shadow: inset -1px -1px 2px #A26436, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 .skills-list .single-skill .progress .progress-bar {
-  background-color: #273272;
+  background-color: #A26436;
   position: relative;
 }
 .skills-list .single-skill .progress .progress-bar > span {
   display: block;
   position: absolute;
-  background-color: #e9eef4;
+  background-color: #A26436;
   top: -40px;
   right: -20px;
   height: 28px;
@@ -6414,8 +6419,8 @@ color: #a26436;
   font-size: 16px;
   z-index: 2;
   border-radius: 3px;
-  box-shadow: -1.5px -1.5px 4px -1px rgba(255, 255, 255, 0.8), 1.5px 1.5px 4px -1px rgba(0, 0, 0, 0.12);
-  color: #273272;
+  box-shadow: -1.5px -1.5px 4px -1px rgba(0, 0, 0, 1), 1.5px 1.5px 4px -1px rgba(0, 0, 0, 0.12);
+  color: white;
 }
 .skills-list .single-skill .progress .progress-bar > span:before {
   position: absolute;
@@ -6427,7 +6432,7 @@ color: #a26436;
   z-index: 1;
   border-style: solid;
   border-width: 8px 7px;
-  border-color: #273272 transparent transparent;
+  border-color: #A26436 transparent transparent;
 }
 .skills-list .single-skill:first-child {
   padding-top: 12px;
@@ -7257,6 +7262,9 @@ color: #a26436;
 /*--------------------------------------------------------------
 ## Contact Page
 --------------------------------------------------------------*/
+.contacto {
+  color: #a26436;
+}
 .contact-info-item {
   padding: 45px 35px 40px;
   text-align: center;
@@ -7264,7 +7272,9 @@ color: #a26436;
   border-radius: 7px;
   position: relative;
   overflow: hidden;
-  box-shadow: -2px -2px 5px -1px rgba(255, 255, 255, 0.8), 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  color: #a26436;
+  background-color: #1c1a1b;
+  box-shadow: -4px -4px 10px -2px rgb(0, 0, 0, 1), 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
 }
 @media only screen and (max-width: 480px) {
   .contact-info-item {
@@ -7272,15 +7282,16 @@ color: #a26436;
   }
 }
 .contact-info-item .shape-icon {
+  background-color: #171616;
   width: 65px;
   height: 65px;
   position: relative;
   margin: 0 auto 20px;
   line-height: 65px;
-  color: #273272;
+  color: #a26436;
   font-size: 30px;
-  box-shadow: inset -2px -2px 5px -1px rgba(255, 255, 255, 0.8), inset 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
-  border-radius: 7px;
+  box-shadow: -2px -2px 5px -1px rgba(0, 0, 0, 1), inset 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
 }
 .contact-info-item .card-info p {
   line-height: 1.7em;
@@ -7292,7 +7303,7 @@ color: #a26436;
 }
 .contact-info-item .card-info p a:hover,
 .contact-info-item .card-info p a:focus {
-  color: #273272;
+  color: white;
 }
 
 .contact-form-area {
@@ -7305,7 +7316,7 @@ color: #a26436;
   }
 }
 .contact-form-area .error {
-  color: #9b2182;
+  color: #c52222;
   font-size: 14px;
   font-weight: normal;
 }
@@ -7320,7 +7331,7 @@ color: #a26436;
 
 .gmaps-area {
   padding: 15px;
-  box-shadow: -2px -2px 5px -1px rgba(255, 255, 255, 0.8), 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  box-shadow: -2px -2px 5px -1px rgba(0, 0, 0, 1), 2px 2px 5px -1px rgba(0, 0, 0, 0.12);
   position: relative;
   border-radius: 10px;
 }
@@ -7331,7 +7342,7 @@ color: #a26436;
   top: 10px;
   height: calc(100% - 20px);
   width: calc(100% - 20px);
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 2px black, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .gmaps-area #gmaps {
