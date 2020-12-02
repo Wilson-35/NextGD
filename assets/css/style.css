@@ -4853,6 +4853,9 @@ color: #a26436;
 /*-------------------------------------------------
     [ ### Service Single ]
 */
+.service-info:hover {
+  color: white;
+}
 .service-single-page ul {
   list-style: none;
   padding-left: 0;
@@ -4888,15 +4891,15 @@ color: #a26436;
   left: 3px;
   top: 9px;
   border-radius: 50%;
-  background-color: #e9eef4;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #a26436;
+  box-shadow: inset -1px -1px 2px #a26436, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .service-single-page ul li:last-child {
   margin-bottom: 0;
 }
 .service-single-page ul li a:hover,
 .service-single-page ul li a:focus {
-  color: #273272;
+  color: #a26436;
 }
 .service-single-page .service-item {
   padding: 0;
@@ -4912,10 +4915,10 @@ color: #a26436;
 }
 .service-single-page .service-item:hover {
   background-color: transparent !important;
-  color: #6a6969;
+  color: #ffffff;
 }
 .service-single-page .service-item:hover .heading {
-  color: #273272 !important;
+  color: #a26436 !important;
 }
 .service-single-page .service-item .service-info {
   margin-bottom: 30px;
@@ -4936,9 +4939,9 @@ color: #a26436;
 }
 .service-single-page .service-item figure {
   margin-bottom: 30px;
-  box-shadow: -5px -5px 8px -1px rgba(255, 255, 255, 0.7), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
+  box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
   padding: 10px;
-  background-color: #e9eef4;
+  background-color: #1c1a1b;
   border-radius: 8px;
 }
 .service-single-page .service-item figure img {
@@ -4957,7 +4960,7 @@ color: #a26436;
   padding-right: 0;
 }
 .service-single-page .text-content ul li:before {
-  color: #273272;
+  color: #a26436;
 }
 .service-single-page .single-info-block {
   margin-bottom: 40px;
@@ -8408,7 +8411,8 @@ color: #a26436;
   bottom: -4px;
   left: 0%;
   overflow: hidden;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #a26436;
+  box-shadow: inset -1px -1px 2px #1c1a1b, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .widget pre {
   padding: 0.5em;
@@ -8440,9 +8444,9 @@ color: #a26436;
 .sidebar-services .widget {
   margin-bottom: 60px;
   padding: 30px 30px 35px;
-  background-color: #e9eef4;
+  background-color: #1c1a1b;
   border-radius: 7px;
-  box-shadow: -5px -5px 8px -1px rgba(255, 255, 255, 0.7), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
+  box-shadow: -5px -5px 8px -1px rgba(0, 0, 0, 1), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1320px) {
   .sidebar-items .widget,
@@ -8995,6 +8999,12 @@ color: #a26436;
 /*--------------------------------------------------------------
 # Services Categories Widget
 --------------------------------------------------------------*/
+.widget_services_categories .widget-content .active {
+  color: #a26436;
+}
+.widget-title {
+  color: #a26436;
+}
 .widget_services_categories .widget-content li {
   position: relative;
 }
@@ -9005,8 +9015,8 @@ color: #a26436;
   left: 0;
   width: 100%;
   height: 2px;
-  box-shadow: inset -1px -1px 2px white, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
-  background-color: #e9eef4;
+  box-shadow: inset -1px -1px 2px #a26436, inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #a26436;
 }
 .widget_services_categories .widget-content li:last-child:before {
   height: 0;
@@ -9023,14 +9033,16 @@ color: #a26436;
   padding: 13px 0px;
   display: block;
   position: relative;
+  color: #c7c7c7;
 }
 @media only screen and (max-width: 480px) {
   .widget_services_categories .widget-content li > a {
     font-size: 16px;
+    color: #a26436;
   }
 }
 .widget_services_categories .widget-content li > a:hover, .widget_services_categories .widget-content li > a:focus {
-  color: #273272;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
